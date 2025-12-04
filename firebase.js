@@ -6,12 +6,13 @@ import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.g
 const firebaseConfig = {
   apiKey: "AIzaSyDayWC24ZNCYD68aQQlr5qL10IViJKBfhM",
   authDomain: "portfolio-e2ba3.firebaseapp.com",
+  databaseURL: "https://portfolio-e2ba3-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "portfolio-e2ba3",
   storageBucket: "portfolio-e2ba3.firebasestorage.app",
   messagingSenderId: "660146572094",
-  appId: "1:660146572094:web:5342d1997dc9863a27ba6f"
+  appId: "1:660146572094:web:7628c4b87ce2b81627ba6f",
+  measurementId: "G-K93FP0BYSP"
 };
-
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
