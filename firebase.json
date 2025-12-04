@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "public": ".",
+    "site": "ambul-portfolio",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
